@@ -60,8 +60,8 @@ META_OE_TAG=24e1ebc21da20240a41984b7f5c90aa9bd65a7e8
 META_JAVA_REPO=https://github.com/woglinde/meta-java.git
 META_JAVA_TAG=5d528acac0eab6cfaa4ed3c290c7db3acd5047bf
 
-META_SELINUX_REPO=git://git.yoctoproject.org/meta-selinux
-META_SELINUX_TAG=8e952c7da126d30f4aecb33abd3ef9252785cb40
+META_SELINUX_REPO=https://github.com/evergreenxt/meta-selinux.git
+META_SELINUX_TAG=d603a01536e6730da1904dc37c2e18eec20fc156
 
 META_OPENXT_OCAML_PLATFORM_REPO=https://github.com/OpenXT/meta-openxt-ocaml-platform.git
 META_OPENXT_OCAML_PLATFORM_TAG=master

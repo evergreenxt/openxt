@@ -289,6 +289,15 @@ if [ ! -d ${GIT_ROOT_PATH}/${BUILD_USER} ]; then
     do
         git clone --quiet --mirror https://github.com/OpenXT/${repo}.git
     done
+    for evergreen in \
+	$(curl -s "https://api.github.com/orgs/evergreenxt/repos?per_page=100" | \
+	  jq '.[].name' | cut -d '"' -f 2 | sort -u)
+    do
+	if [ -d ${evergreen}.git ]; then
+	    rm -fr ${evergreen}.git
+	fi
+	git clone --quiet --mirror https://github.com/evergreenxt/${evergreen}.git
+    done
     echo "Done"
     cd - > /dev/null
     chown -R ${BUILD_USER}:${BUILD_USER} ${GIT_ROOT_PATH}/${BUILD_USER}

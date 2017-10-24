@@ -16,7 +16,7 @@
 	branch = jethro
 [submodule "build/repos/meta-selinux"]
 	path = build/repos/meta-selinux
-	url = git://git.yoctoproject.org/meta-selinux
+	url = https://github.com/evergreenxt/meta-selinux.git
 	branch = jethro
 [submodule "build/repos/meta-intel"]
 	path = build/repos/meta-intel

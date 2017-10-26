@@ -61,7 +61,7 @@ META_JAVA_REPO=https://github.com/woglinde/meta-java.git
 META_JAVA_TAG=5d528acac0eab6cfaa4ed3c290c7db3acd5047bf
 
 META_SELINUX_REPO=https://github.com/evergreenxt/meta-selinux.git
-META_SELINUX_TAG=b691610a120124c7e61f8f285a71dd5ba444b55e
+META_SELINUX_TAG=jethro
 
 META_OPENXT_OCAML_PLATFORM_REPO=https://github.com/OpenXT/meta-openxt-ocaml-platform.git
 META_OPENXT_OCAML_PLATFORM_TAG=master

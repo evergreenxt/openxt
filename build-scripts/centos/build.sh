@@ -84,6 +84,7 @@ done
 # Note: only building for 64 bits target. Building for 32 bits requires a chroot
 rm -rf repo/SOURCES/libv4v* libv4v-1.0
 mkdir -p repo/SOURCES libv4v-1.0
+rm -Rf v4v
 git clone -b $BRANCH $GIT_MIRROR/v4v.git
 cp -ar v4v/libv4v/* libv4v-1.0
 cp -ar v4v/v4v/linux v4v/v4v/include/xen libv4v-1.0/src

@@ -34,7 +34,7 @@ BUILD_USER="openxt"
 # The FQDN path for the Debian mirror
 # (some chroots don't inherit the resolv.conf search domain)
 # eg. DEBIAN_MIRROR="http://httpredir.debian.org/debian"
-DEBIAN_MIRROR="http://httpredir.debian.org/debian"
+DEBIAN_MIRROR="http://archive.debian.org/debian"
 
 # The name of the local user created inside the containers
 CONTAINER_USER="build"
